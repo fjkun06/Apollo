@@ -1,0 +1,102 @@
+#main {
+    background-color: #e3e3e3;
+    margin: 1.5% 1px 1.5% 1px;
+    border-radius: 0.5%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    height: 10%;
+    }
+    
+    #title {
+    font-family: 'Roboto', 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    font-size: 2.0vw;
+    text-align: center;
+    padding-top: 3vw;
+    /*padding: 30px 40% 0px 40%;*/
+    }
+    
+    #p1 {
+    font-size: 1.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    /*padding: 0px 44% 0px 44%;*/
+    text-align: center;
+    margin-bottom: 1.5vw;
+    }
+    
+    #img-div {
+    margin: auto;
+    border: 1px solid white;
+    background-color: white;
+    }
+    
+    #image {
+    margin: 2vw;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    max-width: 50vw%;
+    height: 34vw;
+    margin-left: 22%
+    }
+    
+    #img-caption {
+    /*margin: 0px 34% 0px 34%;*/
+    padding-bottom: 1.5vw;
+    font-size: 1.1vw;
+    text-align: center;
+    }
+    
+    #tribute-info {
+    margin: auto;
+    /*margin: 50px 33% 0px 33%;*/
+    width: 35vw;
+    height: 45vw;
+    text-align: left;
+    }
+    
+    #tribute-info h3 {
+    font-size: 2.5vw;
+    font-family: 'Bahnschrift Light', 'Open Sans', 'sans-serif';
+    margin: auto;
+    text-align: center;
+    margin-top: 2vw;
+    }
+    
+    #tribute-info ul {
+    font-size: 20px;
+    font-family: 'Bahnschrift Light', 'Open Sans', 'sans-serif';
+    display: block;
+    width: 90%;
+    height: 68%;
+    }
+    
+    #tribute-info li {
+    padding: 10px;
+    }
+    
+    #tribute-info blockquote {
+    padding-bottom: 0px;
+    margin: auto;
+    margin-bottom: 0;
+    text-align: center;
+    }
+    
+    #lp {
+    font-size: 1.2vw;
+    margin-left: 0px;
+    margin-bottom: -5vw;
+    }
+    
+    #lp a {
+    color: blue;
+    text-decoration: none;
+    }
+    
+    #lp a:hover {
+    color: red;
+    }
+    
+    #lp a:visited {
+    color: purple;
+    }
+    
+
+
+

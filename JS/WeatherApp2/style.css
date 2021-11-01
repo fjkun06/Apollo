@@ -1,0 +1,36 @@
+body{
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+  background-color: #fff;
+}
+.container {
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 1%;
+}
+.icon{
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
+}
+.change-location p{
+  font-size: 70%;
+  color: #000;
+  animation-duration: 5s;
+  animation-name: fadeIn; 
+  animation-iteration-count: infinite;
+}
+  
+  @keyframes fadeIn {
+    0%{
+      background-color: #fff;
+    }
+    50% {
+      background-color: rgba(204, 53, 53, 0.664);
+    }
+    100%{
+      transition: background-color 2s;
+    }
+}

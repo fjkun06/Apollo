@@ -1,0 +1,408 @@
+/*********GENERAL*******/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+html, body {
+    background-color: #fcde67;    color: #030e12;
+    font-family: 'Lato','Roboto', 'Arial', sans-serif;
+    font-style: 20px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/******************HEADER*************/
+header { 
+    width: 100%;
+    height: 110vh;
+    align-items: center;
+    margin: auto;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+/*****************NAV****************/
+nav {
+    color: white;
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    margin-top: 2vh;
+
+}
+
+nav ul li{
+    border: 1px solid #000;
+    margin-right: 2em;
+    margin-top: 0vh;
+    font-size: 200%;
+
+}
+
+  
+/*********Colored Links**************/
+.site, .survey{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 120%;
+    color: #030e12;
+    background-color: #fcde67;
+    transform: rotateZ(2deg);
+    padding: 2vh 2vh;
+
+}
+
+.site a, .survey a{
+    text-decoration: none;
+    color: #030e12;
+    padding: 3vh 1vw;
+}
+
+.site:hover,.survey:hover {
+    transform: rotateZ(6deg);
+    background-color: #030e12;
+    color: #fcde67;
+    transition: background-color 10.5s;
+    transition: transform 0.5s;
+}
+
+/*.site a:visited,
+.site a:active,
+.survey a:visited,
+.survey a:active {
+    color: #030e12;
+}*/
+
+
+.site a:hover,
+.survey a:hover {
+    color: #fcde67;;
+}
+
+/*************hub************/
+.top {
+ background-color: #030e12;
+ width: 100%;
+ height: 100%;
+ background-attachment: fixed;
+ color: rgb(255, 255, 255);
+ display: flex;
+ flex-direction: row;
+ align-self: center;
+}
+
+.hub h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 500px;
+    margin-top: 0;
+}
+
+#j{
+    vertical-align: sub;
+    color: orange;
+
+}
+
+#rest { 
+    vertical-align: super;
+    font-size: 200px;
+}
+/* 
+#land {
+    border: 3px solid red;
+} */
+
+.appear {
+    align-self: center;
+    margin-left: -45vw;
+    margin-top: 30%;
+    height: 40vh;
+    width: 50%;
+    font-size: 350%;
+    line-height: 1em;}
+
+#t1{
+    color: orange;
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+@keyframes example {
+    0% {color: #030e12;
+            font-size: 100%;}
+    50% {color: orange;
+        font-size: 250%;
+    }
+
+    100% {color: orange;
+        font-size: 100%;
+    }
+  }
+
+  @keyframes examplem {
+    0% {color: #030e12;
+            font-size: 100%;}
+    50% {color: orange;
+        font-size: 150%;
+    }
+
+    100% {color: orange;
+        font-size: 100%;
+    }
+  }
+  
+  
+
+#t2 {
+    margin-left: 4.8em;
+    color: orange;
+    animation-name: examplem;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+
+#t3 { 
+    margin-left: 5.6em;
+    color: orange;
+    animation-name: examplem;
+    animation-duration: 3s;
+    animation-delay: 7s;
+    animation-iteration-count: infinite;
+    -o-animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+
+
+
+
+
+
+
+
+
+/**********GLOBALS*************/
+.row {
+    max-width: 1140px; 
+    margin: 0 auto;
+}
+
+.size {
+    max-width: 70%;
+    margin: 0 13vw;
+}
+
+/****************TITLE**********/
+.top-text {
+    max-width: 100%;
+    margin: 4vw 0 2vw 0;
+    text-align: center;
+    line-height: 1em;
+}
+
+/***********FORM BODY******/
+
+#bodi {
+    background-color: #8cabb6;
+    padding: 1vw 2.5vw 2.5vw 2.5vw;
+    font-size: 130%;
+    border-radius: 8px;
+    line-height: 1.5em;
+    width: fit-content;
+    margin: auto;
+}
+
+/**********INPUT*************/
+#number, #name, #email, #dropdown select, #role select, #text-a textarea{
+    width: 100%;
+    font-size: 85%;
+    padding-left: 1em;
+    color: #555;
+}
+
+#number, #name, #email, #dropdown select, #role select {
+    margin-top: 0.5em;
+    margin-bottom: 10px; 
+    height: 5.5vh; 
+    border-radius: 8px; }
+
+#number, #name, #email {
+    margin-top: 0.5em;
+    margin-bottom: 10px;
+    color: rgb(7, 7, 7);
+    font-size: 70%;
+    padding-left: 1em;
+}
+
+/***SPANS********/
+
+.personal-info span, #choice span {
+    font-size: 75%;
+    padding-left: 5px;
+}
+
+/**********LABELS***********/
+
+.personal-info div{
+    padding-top: 1em;
+}
+.personal-info div:last-child{
+    padding-bottom: 1em;
+}
+
+/**********DIV PARAGRAPHS************/
+#dropdown p, #role p, #choice p, #text-a p {
+    margin-bottom: 3px;
+}
+
+/***********`Js***************/
+.name_check {
+    display: none;
+}
+.email_check {
+    display: none;
+}
+
+.success{
+    border: 2px solid limegreen;
+  }
+.error{
+    border: 2px solid crimson;
+}
+.empty{
+    border: 2px solid black;
+}
+
+/*#dropdown select:first-child:hover {
+    background-color: #fff;
+}
+/******************CHANGE***********/
+
+#change {
+    margin: -3vw auto -30px auto;
+    margin-bottom: -1vh;
+}
+
+#change p {
+    margin-bottom: 7px;
+}
+
+#change input {
+    margin-bottom: 15px;
+}
+#change input[type=radio], #choice input[type=checkbox] {
+    width: 5%;
+    min-height: 2.5vh;
+}
+
+/************ROLE/LOVE********/
+#role {
+        margin-bottom: -5vh;
+    }
+
+/*************TEXT AREA********/
+#text-a {
+    margin-top: -3vh;
+}
+
+#text-a textarea {
+    height: 16vh;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+/*********SUBMIT********/
+#text-a input[type=submit] {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    font-size: 85%;
+    color: #fff;
+    background-color: #37af65;
+}
+
+/*small phones from 0 to 480px*/
+@media only screen and (max-width: 767px){
+    body{ font-size: 15px;}
+
+    .size {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    #bodi {
+        padding: 1em 2em;
+        border-radius: 0px;
+    }
+
+    .top-text{
+        margin: 15vw 2vw 12vw 2vw;
+    }
+
+    #title{ font-weight: normal;}
+
+    #description { 
+        font-size: 110%;
+        line-height: 1.5em;
+    }
+
+    #number, #name, #email, #dropdown select, #role select {
+        height: 7vh;  }
+
+    #number, #name, #email, #dropdown select, #role select, #text-a textarea{
+        font-size: 90%;
+    }
+
+    #change input[type=radio], #choice input[type=checkbox] {
+        width: 8%;
+        min-height: 3vh;
+    }
+}
+
+/*Max-width 445*/
+/*small phones from 0 to 480px*/
+@media only screen and (max-width: 445px){
+    body{ font-size: 10px;}
+
+    .top-text {
+        line-height: 2em;
+    };
+
+    #number, #name, #email, #dropdown select, #role select {
+        height: 0vh;  }
+
+    #number, #name, #email, #dropdown select, #role select, #text-a textarea{
+        font-size: 90%;
+        height: 5vh;
+    }
+
+    #change input[type=radio], #choice input[type=checkbox] {
+        width: 8%;
+        min-height: 1vh;
+    }
+
+    .personal-info {
+        font-size: 85%;
+    }
+    
+}

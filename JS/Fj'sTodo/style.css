@@ -1,0 +1,87 @@
+body{
+  background: #352f5b;
+}
+.container{
+  max-width: 400px;
+}
+
+.container span, .container i {
+  color: #fff;
+}
+input[type=text],
+input[type=text]:focus{
+  color: #fff;
+  border: none;
+  background: rgba(0,0,0,0.2);
+  max-width: 400px;
+}
+.todos li{
+  background: #423a6f;
+}
+.delete{
+  cursor: pointer;
+}
+.delete:hover {
+  color: rgb(238, 36, 36);
+  font-size: 18px;
+  transition: color 0.2s;
+}
+.filtered {
+  display: none !important;
+}
+
+/************Left Arrow***********/
+.farleft {
+padding-right: 5px !important;
+padding-left: 5px !important;
+cursor: pointer;
+}
+.farleft:hover {
+color: rgb(10, 194, 10);
+font-size: 18px;
+transition: color 0.2s;
+}
+
+/************Right Arrow***********/
+.farright {
+padding-right: 5px !important;
+padding-left: 0px !important;
+cursor: pointer;
+}
+.farright:hover {
+color: rgb(243, 201, 63);
+font-size: 18px;
+transition: color 0.2s;
+}
+
+/*************Trash Can*********/
+.back {
+position:relative;
+left: 160px;
+}
+.fj-todo {
+padding-right: 0px !important;
+padding-left: 0px !important;
+display: inline-block !important;
+}
+
+.todos span{
+width: 80%;
+}
+
+/***************CHECK****************/
+.check {
+padding-right: 10px !important;
+padding-left: 0px !important;
+cursor: pointer;
+}
+.check:hover {
+color: rgb(28, 66, 235);
+font-size: 18px;
+transition: color 0.2s;
+}
+
+/************Search********/
+.search {
+  display: none;
+}

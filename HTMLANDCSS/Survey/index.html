@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head lang="en-us">
+ 
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="stylesheet" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" href="resources/css/survey.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <title>UB Survey</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="site"><i class="ion-ios-world"><a href="https://jongostudios.com" target="_blank">Visit our Website!</i></a></li>
+                <li class="survey"><i class="ion-ios-paper navigationList"><a href="#land">Take our Survey!</i></a></li>
+            </ul>
+        </nav>
+        <div class="top">
+            <div class="hub">
+                <h1><span id="j">J</span><span id="rest">ongo Hub</span></h1>
+            </div>
+            <div class="appear">
+               The <span id="t1">Cradle</span> <br>
+               <span id="t2">Of</span> <br>
+               <span id="t3">Inno</span>vation 
+            </div>
+
+        </div>
+    </header>
+        <div class="row" id="land">
+            <div>
+                <div class="top-text">
+                    <h1 id="title">Jongo Hub's Interns Survey Form</h1>
+                    <p id="description">Welcome to our e-Survey Platform, please kindly fill the balnk spaces below</p>
+                </div>
+                <div id="bodi">
+                    <form id="survey-form">
+                        <div class="personal-info">
+                            <div class="name1">
+                                <label for="name">Name</label>
+                                <br>
+                                <input type="text" id="name" name="name" placeholder = "Enter your name" required>
+                                <br>
+                                <p class="name_check">Username should be atleast 4 letters long and no special characters.</p>
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <br>
+                                <input type="email" id="email" name="email" placeholder = "Enter your email address" required>
+                                <br>
+                                <p class="email_check">Format: atleast 4[a-d].domain(e.g gmail).com/fr/e</p>
+                            </div>
+                            <div>
+                                <label for="age">Age<span>(optional)</span></label>
+                                <br>
+                                <input type="number" id="number" name="age" min="1" max="210" placeholder = "Enter your age">
+                                <br>
+                            </div>
+                        </div>
+                        <div id="dropdown">
+                            <p>What option best describes your current role?</p>
+                            <select name="role" required>
+                                    <option value="">Select current role</option>
+                                    <option value="Student">Student</option>
+                                    <option value="Worker">Worker</option>
+                                    <option value="Full Timer">Full Timer</option>
+                                    <option value="Prefer not say">Prefer not say</option>
+                                    <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <br>
+                        <br>
+                        <div id="change">
+                            <p>How did you find us?</p>
+                            <div>
+                            <input type="radio" name="choice">
+                            <label for="">Social Media</label>
+                            </div>
+                            <div>
+                            <input type="radio" name="choice">
+                            <label for=""></label>Tv Advertisement</label>
+                            </div>
+                            <div>
+                            <input type="radio" name="choice">
+                            <label for="">By recommendation</label>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="role">
+                            <p>What did you love most about the Jongo Association?</p>
+                            <select name="role" required>
+                                    <var>
+                                        <option value="">Select an option</option>
+                                    </var>
+                                    <option value="challenges">Challenges</option>
+                                    <option value="projects">Projects</option>
+                                    <option value="community">Community</option>
+                                    <option value="facilities">Facilities</option>
+                                    <option value="staff">Staff</option>
+                            </select>
+                        </div>
+                        <br>
+                        <br>
+                        <div id="choice">
+                            <p>
+                                What would you prefer the Association changed or added?
+                                <span> (Check all that apply)</span>
+                            </p>
+                            <input type="checkbox" value="lecturers">
+                            <label for="">Front-end Projects</label>
+                            <br>
+                            <input type="checkbox" value="scheme of work">
+                            <label for="">Back-end Projects</label>
+                            <br>
+                            <input type="checkbox" value="food menu">
+                            <label for="">Staff</label>
+                            <br>
+                            <input type="checkbox" value="lecturers">
+                            <label for="">Challenges</label>
+                            <br>
+                            <input type="checkbox" value="scheme of work">
+                            <label for="">Curriculum</label>
+                            <br>
+                            <input type="checkbox" value="food menu">
+                            <label for="">Allocated Break(Rest) Hours</label>
+                            <br>
+                            <input type="checkbox" value="lecturers">
+                            <label for="">Lecturers</label>
+                            <br>
+                            <input type="checkbox" value="scheme of work">
+                            <label for="">Scheme of Work</label>
+                            <br>
+                            <input type="checkbox" value="food menu">
+                            <label for="">Location</label>
+                            <br>
+                            <input type="checkbox" value="lecturers">
+                            <label for="">Forum</label>
+                            <br>
+                            <input type="checkbox" value="scheme of work">
+                            <label for="">Additional Courses</label>
+                            <br>
+                            <br>
+                        </div>
+                        <br>
+                        <div id="text-a">
+                            <p>Any comments or extra suggestions?</p>
+                            <textarea placeholder="Enter your comment or suggestion here..."></textarea>
+                            <input type="submit" value="Submit" id="submit">
+                        </div>
+                        <br>
+                    </form>
+                 </div>
+            </div>
+        </div>
+
+    <script src="resources/js/survey.js"></script>
+    <script src="resources/js/jquery.js"></script>
+</body>
+
+</html>

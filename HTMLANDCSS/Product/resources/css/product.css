@@ -1,0 +1,270 @@
+/*********GENERAL*******/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*:focus{
+    outline: none;
+}
+
+/***********CONTAINER*********/
+.container {
+font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    background-color: #eee;
+    overflow-x: hidden;
+    color: #000;
+    height: 200%;}
+
+.row {
+    max-width: 1140px; 
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+.size {
+    max-width: 70%;
+    margin: 0 13vw;
+    height: 80%;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/********************HEADER*******************/
+#header {
+    background-color: #eee;
+    height: 10vh;
+    display: block;
+    position: fixed;
+    width: 100%;
+}
+
+
+#pic {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: auto;
+}
+
+#pic h1 {
+    padding-left: 5px;
+    margin-top: 0;
+}
+
+#header-img {
+    height: 6vh;
+    width: 3vw;
+    border-radius: 50%;
+}
+
+/***********NAV BAR************/
+#nav-bar{
+    height: 10vh;
+    max-width: 100%;
+}
+
+.nav-link{
+    display: inline-flex;
+    float: right;
+    padding: 0;
+    font-size: 80%;
+    margin-top: 0w;
+    padding-right: 7vw;
+    padding-top: 3vh;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*************FORM***************************/
+.info {
+    margin-bottom: 12vh;
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 80%;
+}
+
+#email {
+    margin-bottom: 2vh;
+    height: 3.5vh;
+    width: 280px;
+    font-size: 80%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+#submit{
+    padding: 3px;
+    font-weight: 900;
+    background-color: rgb(255, 197, 5);
+}
+
+/********************ICONS*******************/
+.small-icon {
+    padding-right: 5px;
+}
+
+.big-icon {
+    font-size: 300%;
+    width: 9vw;
+    color: rgb(255, 73, 7);
+}
+
+/*************FEATURES**********************/
+#a1 {
+    width: 90%;
+
+}
+
+.features p {
+    margin-left: 24.3%;
+    margin-top: -4.5vh;
+    padding-bottom: 2vh;
+    font-size: 80%;
+    max-width: 67%;
+}
+
+.features div {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.features h3 {
+    padding-top: 1vh;
+    font-size: 120%;
+}
+
+.features {
+    padding-bottom: 10vh;
+    align-items: center;
+}
+ /**********VIDEO******************/
+ #a2 {
+     display: flex;
+     justify-content: space-around;
+     padding-bottom: 10vh;  
+ }
+
+ #video {
+      width : 540px;
+       height: 300px;
+ }
+
+ /************PLANS**************/
+ #a3 {
+     display: flex;
+     height: 40vh;
+     justify-content: space-between;
+
+ }
+
+ .container-1 {
+     display: inherit;
+     width: 100%;
+     height: 100%;
+    justify-content: center;
+ }
+
+ .container-1 div{
+     display: inherit;
+     flex-direction: column;
+     width: 28%;
+     border: 1px solid #000;
+     border-radius: 3px;
+     margin-right: 1vw;
+     text-align: center;
+     height: 100%;
+ }
+
+ .container-1 div h4{
+
+     padding-top: 1vh;
+     padding-bottom: 1vh;
+     background-color: rgb(224, 224, 224);
+     font-weight: 500;
+ }
+
+ .prix{
+    font-weight: 500;
+    font-size: 100%;
+    padding-top: 1.5vh;
+    padding-bottom: 2.5vh;
+}
+
+.container-1 div p{
+    padding-bottom: 2.5vh;
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.lp {
+    margin-bottom: -0.5vh; }
+
+    /**************BUTTON****************/
+.sel{
+    padding: 10px 10px;
+    width: 35%;
+    background-color: rgb(255, 197, 5);
+    font-size: 90%;
+    text-transform: uppercase;
+    margin-left: 32%;
+}
+
+.sel a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.sel:hover{
+    transition: background-color 0.2s;
+    background-color: rgb(235, 155, 8);
+}
+
+/******************FOOTER********************/
+#footer{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(224, 224, 224);
+    margin-top: 5vh;
+}
+
+#footer ul{
+    display: flex;
+    justify-content:flex-end;
+    list-style-type: none;
+    padding-right: 2vw;
+    padding-top: 2.5vh;
+    font-size: 70%;
+    font-weight: 400;
+}
+
+#footer li{
+   /* justify-items: end;*/
+    margin-left: 1vw;
+}
+
+#cpr{
+    float: right;
+    position: relative;
+    bottom: -1vh;
+    left: -1.5vw;
+    font-size: 70%;
+}
